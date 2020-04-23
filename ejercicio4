@@ -19,7 +19,7 @@ MOVLW b'00000000' ;Establecer puerto B como salida (los 8 bits del puerto)
 MOVWF TRISB 
 BCF STATUS, RP0 ;Regresar al banco 0
 
-MOVLW d'8'
+MOVLW d'7'
  MOVWF j
  MOVLW d'1'
  MOVWF i
